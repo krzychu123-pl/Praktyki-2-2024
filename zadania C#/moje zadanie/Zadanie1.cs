@@ -34,11 +34,11 @@ class Zadanie1
 
                 Console.WriteLine("\n\nNaciśnij dowolny przycisk, aby zakończyć...");
                 Console.ReadKey();
-                break;
+                
             }
             catch (FormatException)
             {
-                Console.WriteLine("Wprowadzono niepoprawne dane! Proszę wpisać liczby.");
+                Console.WriteLine("Wprowadzono niepoprawne dane, proszę podać liczbę! \n\n");
             }
         }
     }
